@@ -1,0 +1,9 @@
+#kubectl create ns dev-ns
+
+#kubectl create -f namespace-definition.yaml
+
+# kubectl get pods --namespace=kube-system
+
+#kubectl config set-context $(kubectl config current-context) --namespace=dev-ns
+
+#kubectl get all --all-namespaces

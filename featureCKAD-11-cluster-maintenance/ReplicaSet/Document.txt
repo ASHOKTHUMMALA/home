@@ -1,0 +1,3 @@
+#kubectl create -f rs-definition.yaml
+
+#kubectl get replicaset

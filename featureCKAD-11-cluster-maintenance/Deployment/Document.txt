@@ -1,0 +1,23 @@
+
+#kubectl create deploy nginx --image=nginx
+
+#kubectl create -f deployment-definition.yaml
+
+#kubectl get deployment
+
+#kubectl set image deploy nginx nginx=nginx:1.14.1 --record
+
+#kubectl rollout status deploy nginx
+
+#kubectl rollout history deploy nginx
+
+#kubectl rollout pause deploy nginx
+
+#kubectl rollout resume deploy nginx
+
+#kubectl rollout undo deploy nginx
+#kubectl rollout undo deploy nginx --to-revision=2
+
+#kubectl scale --replicas=3 deploy nginx
+
+#kubectl autoscale deploy nginx --min=1 --max=10 --cpu-percent=80

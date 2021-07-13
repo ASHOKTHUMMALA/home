@@ -1,0 +1,3 @@
+#kubectl create cm app-config --from-literal=color=blue
+#kubectl create cm app-config --from-file=app_config.properties
+#kubectl get configmaps

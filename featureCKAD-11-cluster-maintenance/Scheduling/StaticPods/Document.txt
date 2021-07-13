@@ -1,0 +1,10 @@
+Configuration:
+--pod-manifest-path
+        OR
+--config=kubeconfig.yaml
+    kubeconfig.yaml
+        staticPodPath
+
+
+Path :
+/etc/kubernetes/manifests/

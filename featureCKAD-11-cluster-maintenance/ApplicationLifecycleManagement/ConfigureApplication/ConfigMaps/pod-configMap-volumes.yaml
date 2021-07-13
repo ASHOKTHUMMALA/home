@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+      envFrom:
+        - configMapRef:
+            name: app-config
+      volumeMounts:
+        - name: app-config-vol
+          mountPath: /tmp/
+  volumes:
+  - name: app-config-vol
+    configMap:
+      name: app-config

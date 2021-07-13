@@ -1,0 +1,5 @@
+#kubectl run nginx --image=nginx
+
+#kubectl create -f pod-definition.yaml
+
+#kubectl get pods

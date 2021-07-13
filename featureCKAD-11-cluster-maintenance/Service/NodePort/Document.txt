@@ -1,0 +1,11 @@
+Random Algorithm
+SessionAffinity : yes
+
+Port Range for NodePort :
+    30000 - 32767
+
+#kubectl create -f service-definition.yaml
+
+#kubectl get service
+
+#kubectl get endpoints

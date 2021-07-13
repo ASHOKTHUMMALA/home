@@ -1,0 +1,1 @@
+#kubectl label nodes docker-desktop size=Large

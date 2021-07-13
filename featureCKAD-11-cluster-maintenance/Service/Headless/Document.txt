@@ -1,0 +1,2 @@
+-> Client wants to commmunicate with 1 specific Pod directly
+-> Pods wants to talk directly to a specific Pod

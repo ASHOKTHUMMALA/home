@@ -1,0 +1,17 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: reporting-math-job
+spec:
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      completions: 3
+      parallelism: 3
+      template:
+        spec:
+          containers:
+          - name: ubuntu
+            image: ubuntu
+            command: ['expr', '3', '+', '4']
+          restartPolicy: Never

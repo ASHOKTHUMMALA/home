@@ -1,0 +1,8 @@
+Deployment Stratergy :
+    RollingUpdate
+    Recreate
+
+#kubectl create -f deploy.yaml
+#kubectl rollout status deploy nginx
+#kubectl rollout history deploy nginx
+#kubectl rollout undo deploy nginx --to-revision=2

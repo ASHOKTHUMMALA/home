@@ -1,0 +1,2 @@
+1.) How services help to access external datasource?
+2.) What is use cases of auto creation of endpoint object while creating a service in k8s?
